@@ -34,7 +34,7 @@ body * {
 #container {
   width: 100%px;
   max-width: 588px;
-  margin: 56px auto 100px;
+  margin: 56px auto 0px;
   padding: 0 24px;
 }
 
@@ -69,11 +69,11 @@ body * {
   left: 0;
   z-index: 1;
   transform: translateY(-50%);
-  animation: slide-back 0.2s;
+  animation: slide-back 0.5s;
 }
 
 .light #switch button {
-  animation: slide-in 0.2s forwards;
+  animation: slide-in 0.5s forwards;
 }
 
 #switch button:hover {
@@ -114,6 +114,13 @@ ul li a {
   transition: background 0.2s;
 }
 
+#link-icons {
+  display: flex;
+  justify-content: center;
+  transform: translateX(30%) translateY(-8%);
+  font-size: 24px;
+}
+
 /* pseudo-selector */
 ul li a:hover {
   background-color: var(--surface-color-hover);
@@ -124,7 +131,7 @@ ul li a:hover {
 #social-links {
   display: flex;
   justify-content: center;
-  padding: 10px 0;
+  padding: 24px 0;
   font-size: 24px;
 }
 
@@ -139,17 +146,16 @@ ul li a:hover {
 
 #social-links a:hover {
   background: var(--highlight-color);
-  padding: 16px;
 }
 
 footer {
-  padding: 24px 0;
+  padding: 40px 0;
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 /* media queries*/
-@media (min-width: 700px) {
+@media (min-width: 600px) {
   :root {
     --bg-url: url(assets/bg-desktop.jpg);
   }
@@ -176,4 +182,3 @@ footer {
     left: 50%;
   }
 }
-
