@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+<!--nome da classe principal da página (root) e lingua padrão-->
 <html lang="pt-br" class="root">
+  <!--fontes padrões da página-->
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -7,21 +9,28 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <!--viewport da página com width de devide width e escala inicial ao iniciar a página de 1 (sem zoom), além disso o nome da página-->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MyLinks</title>
+    <!--aqui atribuiu ao css uma relação ao documento html atual-->
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <!--dentro do body há o container, parte que contém todo o conteúdo interagível da página-->
     <div id="container">
       <div id="profile">
+        <!--dentro de profile (foto de perfil do site) o src que utilizou dos assets do projeto para colocar a foto na página-->
         <img src="assets/avatar.png" alt="Foto de Gastão" />
+        <!--nome embaixo da foto-->
         <p>Gastão Santos</p>
       </div>
+      <!--atribuiu uma id ao switch (botão de dark e light mode) e onclick teve o valor atribuido a função toogleMode() além disso o span (área entorno do botão switch) e button (botão switch) que fazem parte da id switch-->
       <div id="switch" onclick="toggleMode()">
         <button></button>
         <span></span>
       </div>
+      <!--parte da página onde contém lista dos links-->
       <ul>
         <li>
           <a href="https://wa.me/5541989025192" target="_blank">My contact <div id="link-icons"> 
@@ -45,6 +54,7 @@
           ></div></a>
         </li>
       </ul>
+      <!--parte onde contém os ícones links-->
       <div id="social-links">
         <a href=https://open.spotify.com/user/71pyljf6yykb6hept06flgcu4 target="_blank">
           <ion-icon name="musical-notes-outline"></ion-icon
@@ -62,6 +72,7 @@
           ><ion-icon name="logo-tiktok"></ion-icon
         ></a>
       </div>
+      <!--parte do rodapé da página com autoria e link ao clicar em meu nome-->
       <footer>
         Feito por
         <a href="https://github.com/ghastsantos" target="_blank ">Gastão</a>
@@ -75,6 +86,7 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <!--parte onde cria ligação do JS ao HTML-->
     <script src="./script.js"></script>
   </body>
 </html>

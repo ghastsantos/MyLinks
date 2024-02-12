@@ -1,9 +1,10 @@
+/* este * atribui valor de 0 a margin e padding em todo o css e border box também*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+/*modo preto (root) da página com background definido, textos, cores e ícones que se diferem do light mode*/
 :root {
   --text-color: white;
   --bg-url: url(assets/bg-mobile.jpg);
@@ -13,7 +14,7 @@
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(assets/MoonStars.svg);
 }
-
+/*mesma coisa do black mode só que agora do white mode*/
 .light {
   --text-color: black;
   --bg-url: url(assets/bg-mobile-light.jpg);
@@ -23,6 +24,7 @@
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(assets/Sun.svg);
 }
+/*parte que envolve todo o body da página e como ele responde (var) de acordo com light e dark mode*/
 body {
   background: var(--bg-url) no-repeat top center/cover;
   height: 100vh;
@@ -31,13 +33,14 @@ body * {
   font-family: "Inter", sans-serif;
   color: var(--text-color);
 }
+/*medidas que envolvem o container, toda a parte desde profile até o footer*/
 #container {
   width: 100%px;
   max-width: 588px;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
-
+/*medidas para alinhamento do profile, além de medida da img do profile e medidas do texto do profile*/
 #profile {
   text-align: center;
   padding: 24px;
@@ -51,7 +54,7 @@ body * {
   line-height: 24px;
   margin-top: 8px;
 }
-
+/*formas para alinhar a box switch e suas medidas, além das medidas do botão, variação dele de acordo com dark e light mode, formato da borda, sua posição e animação de ligado ou desligado, além disso o efeito ao passar o mouse por cima (hover) e a variação dele com dark e light mode, e por fim as medidas e diferenças do span no dark e light mode*/
 #switch {
   position: relative;
   width: 64px;
@@ -98,7 +101,7 @@ ul {
   gap: 16px;
   padding: 24px 0;
 }
-
+/*formas para alinhar a lista de links, os links e os ícones ao lado dos links e suas medidas, além disso as variações de dark e light mode tanto na ul em si quanto no hover*/
 ul li a {
   display: flex;
   align-items: center;
@@ -121,13 +124,12 @@ ul li a {
   font-size: 24px;
 }
 
-/* pseudo-selector */
 ul li a:hover {
   background-color: var(--surface-color-hover);
   border: 1.5px solid var(--text-color);
 }
 
-/*social links*/
+/*box social links e os links e suas formas de centralizar, além de suas medidas e também em hover a variação de dark para light mode*/
 #social-links {
   display: flex;
   justify-content: center;
@@ -148,13 +150,14 @@ ul li a:hover {
   background: var(--highlight-color);
 }
 
+/*medidas e formas de alinhar o rodapé*/
 footer {
   padding: 40px 0;
   text-align: center;
   font-size: 12px;
 }
 
-/* media queries*/
+/* media queries para o background se adaptar de acordo com o tamanho de tela do dispositivo*/
 @media (min-width: 600px) {
   :root {
     --bg-url: url(assets/bg-desktop.jpg);
@@ -164,7 +167,7 @@ footer {
   }
 }
 
-/*animations*/
+/*animations para o switch*/
 @keyframes slide-back {
   from {
     left: 50%;
