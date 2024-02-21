@@ -1,15 +1,14 @@
 <h1 align="center"> MyLinks </h1>
 
-<p align="center">
-Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
-<a href="https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito">Estude esse projeto em formato de vídeo clicando aqui.</a>
+<p align="center"> An exclusive and free program promoted by Rocketseat to teach WEB technologies through this link aggregator.
+ <br/>
 </p>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#-license">License</a>
 </p>
 
 <p align="center">
@@ -19,35 +18,33 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 <br>
 
 <p align="center">
-  <img alt="projeto DevLinks" src=".github/Cover.png"
+  <img alt="Project DevLinks" src=".github/Cover.png"
   width="100%">
 </p>
 
-## 🚀 Tecnologias
+## 🚀 Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed using the following technologies:
 
-- HTML e CSS
+- HTML and CSS
 - JavaScript
-- Git e Github
+- Git and Github
 - Figma
 
-## 💻 Projeto
+## 💻 Project
 
-O MyLinks é um agregador de links para usar como cartão de visitas online.
+MyLinks is a link aggregator that you can use as an online business card.
 
-- [Acesse o projeto finalizado, online](https://ghastsantos.github.io/MyLinks/)
-
-- [Assistir aulas](https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito)
+- [Access the finished project online](https://ghastsantos.github.io/MyLinks/)
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1187422022288947321). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+ You can view the project layout via [link](https://www.figma.com/community/file/1187422022288947321). You must have an account at [Figma](https://figma.com) to access it.
 
-## :memo: Licença
+## License 
 
-Esse projeto está sob a licença MIT.
+This project is under the MIT license.
 
 ---
 
-Feito por Gastão.
+Made by Gastão.
